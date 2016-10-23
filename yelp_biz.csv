@@ -1,0 +1,42 @@
+business_id,name,open,city,state,stars,attributes.Delivery,review_count,attributes.Price Range,attributes.Accepts Credit Cards,attributes.Take-out
+'u5UmKMjUEUNdYWqANhGckJw','Mr Hoagie',TRUE,'Dravosburg','PA',3.5,FALSE,7,1,TRUE,TRUE
+'UsFtqoBl7naz8AVUBZMjQQ','Clancys Pub',TRUE,'Dravosburg','PA',3,NULL,5,1,TRUE,NULL
+'cE27W9VPgO88Qxe4ol6y_g','Cool Springs Golf Center',FALSE,'Bethel Park','PA',2.5,NULL,5,NULL,NULL,NULL
+'mVHrayjG3uZ_RLHkLj-AMg','Emils Lounge',TRUE,'Braddock','PA',4.5,FALSE,26,2,TRUE,TRUE
+'mYSpR_SLPgUVymYOvTQd_Q','Grand View Golf Club',TRUE,'Braddock','PA',5,NULL,3,NULL,TRUE,NULL
+'KayYbHCt-RkbGcPdGOThNg','Alexions Bar & Grill',TRUE,'Carnegie','PA',4,FALSE,23,1,TRUE,TRUE
+'b12U9TFESStdy7CsTtcOeg','Flynns Tire & Auto Service',TRUE,'Carnegie','PA',2.5,NULL,9,NULL,TRUE,NULL
+Sktj1eHQFuVa-M4bgnEh8g,Forsythe Miniature Golf & Snacks,FALSE,Carnegie,'PA',4,NULL,4,NULL,NULL,NULL
+3ZVKmuK2l7uXPE6lXY4Dbg,Quaker State Construction,TRUE,Carnegie,'PA',2.5,NULL,3,NULL,NULL,NULL
+QoDa50dc7g62xciFygXB9w,Greentree Animal Clinic,TRUE,Pittsburgh,'PA',4,NULL,7,NULL,NULL,NULL
+1_lU0-eSWJCRvNGk78Zh9Q,Carnegie Free Library,TRUE,Carnegie,'PA',4.5,NULL,4,NULL,NULL,NULL
+_qopVQ6_Mz6W7-Pmbi56GQ,Advance Auto Parts,TRUE,Carnegie,'PA',3.5,NULL,3,NULL,NULL,NULL
+wJr6kSA5dchdgOdwH6dZ2w,Kings Family Restaurant,TRUE,Carnegie,'PA',3.5,FALSE,10,1,TRUE,TRUE
+yXuao0pFz1AxB21vJjDf5w,Shop N Save,TRUE,Carnegie,'PA',4,NULL,5,1,TRUE,TRUE
+LLJMI-_fSp6OYQuY4rwarw,Knorrs Sunoco Service,TRUE,Carnegie,'PA',3.5,NULL,3,NULL,NULL,NULL
+F04xyOUA2xnUoCiWpx9iJA,Rossi Tailoring & Cleaners,TRUE,Carnegie,'PA',3,NULL,3,NULL,TRUE,NULL
+Cdcus0NADzyY3XiJM2O5Sg,Heidelberg B P,FALSE,Carnegie,'PA',3,NULL,4,NULL,NULL,NULL
+fNGIbpazjTRdXgwRY_NIXA,Rockys Lounge,TRUE,Carnegie,'PA',4,FALSE,10,1,TRUE,TRUE
+b9WZJp5L1RZr4F1nxclOoQ,Gab & Eat,TRUE,Carnegie,'PA',4.5,FALSE,69,1,FALSE,TRUE
+zaXDakTd3RXyOa7sMrUE1g,Barbs Country Junction Cafe,TRUE,Carnegie,'PA',4,FALSE,9,1,TRUE,TRUE
+zgy27FSnvwdINfk5cXBIyQ,Extended Stay America - Pittsburgh - Carnegie,TRUE,Carnegie,'PA',3.5,NULL,11,2,TRUE,NULL
+WETE_LykpcnrC1sFcQ5EGg,Paddys Pour House,FALSE,Carnegie,'PA',3.5,FALSE,8,2,TRUE,TRUE
+6o3RK6rTcN3nw-j-r2nQmA,Porto Fino Pizzaria & Gyro,TRUE,Carnegie,'PA',2.5,NULL,4,NULL,NULL,NULL
+woOVJ0Z2f6XNCDntHA3b_g,Alteration World,TRUE,Carnegie,'PA',4.5,NULL,10,NULL,FALSE,NULL
+rv7CY8G_XibTx82YhuqQRw,Long John Silvers,TRUE,Carnegie,'PA',3,FALSE,6,1,TRUE,TRUE
+e_U_FnpdKVgNb4mUN2cU_Q,Weinberg Lisa DMD,TRUE,Carnegie,'PA',2.5,NULL,8,NULL,NULL,NULL
+SQ0j7bgSTazkVQlF5AnqyQ,Don Don Chinese Restaurant,TRUE,Carnegie,'PA',2.5,TRUE,10,1,TRUE,TRUE
+LTXS986DAz-4jE_sV2Ui4w,Chartiers Animal Hospital,TRUE,Heidelberg,'PA',3.5,NULL,3,NULL,NULL,NULL
+wqu7ILomIOPSduRwoWp4AQ,Dennys,TRUE,Pittsburgh,'PA',3.5,FALSE,16,1,TRUE,TRUE
+1u2NauOy8xDj7aFQET680A,Amerifit,TRUE,Carnegie,'PA',3,NULL,8,NULL,TRUE,NULL
+P1fJb2WQ1mXoiudj8UE44w,Papa Js,TRUE,Carnegie,'PA',3.5,FALSE,81,2,TRUE,TRUE
+8QlnAcjGE6dgfKTVoxrPvQ,Boston Market,TRUE,Pittsburgh,'PA',2.5,FALSE,3,2,TRUE,TRUE
+xxWFOD46ubTSF3nPRM19BA,Emmert Dental Associates,TRUE,Pittsburgh,'PA',1.5,NULL,6,NULL,NULL,NULL
+t_gan0EXAw8csKIeFyazJw,Homestead Capri Pizza,TRUE,Homestead,'PA',2,TRUE,4,1,TRUE,TRUE
+PK6aSizckHFWk8i0oxt5DA,McDonalds,TRUE,Homestead,'PA',2,FALSE,12,1,TRUE,TRUE
+3gmBc0qN_LtGbZAjTtHWZg,Starbucks,TRUE,Homestead,'PA',3.5,FALSE,25,2,TRUE,TRUE
+sZ4uYs99km644ZMR1TO76A,Randys Beer Barrel Pub,TRUE,Homestead,'PA',2.5,NULL,3,NULL,NULL,NULL
+udjqHtgz7_eh5sExzAkP-g,Cat Around Town,TRUE,West Mifflin,'PA',5,NULL,3,NULL,NULL,NULL
+yHTLTr-QN-loO_7XoxS8qg,Michaels,TRUE,Munhall,'PA',3,NULL,12,2,TRUE,NULL
+iQLLIdmJSt6LQHSjpZERLA,Yankee Candle Co.,TRUE,Homestead,'PA',4.5,NULL,4,2,TRUE,NULL
+6ilJq_05xRgek_8qUp36-g,Steak n Shake,NULL,NULL,'PA',NULL,NULL,60,1,TRUE,TRUE
