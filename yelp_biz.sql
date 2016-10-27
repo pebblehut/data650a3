@@ -27,27 +27,40 @@ business_id    varchar(128)
 row format delimited fields terminated by '\t';
 
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('u5UmKMjUEUNdYWqANhGckJw','Mr Hoagie',1,'Dravosburg','PA',3.5,0,7,1,1,1);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('UsFtqoBl7naz8AVUBZMjQQ','Clancys Pub',1,'Dravosburg','PA',3,NULL,5,1,1,NULL);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('cE27W9VPgO88Qxe4ol6y_g','Cool Springs Golf Center',0,'Bethel Park','PA',2.5,NULL,5,NULL,NULL,NULL);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('mVHrayjG3uZ_RLHkLj-AMg','Emils Lounge',1,'Braddock','PA',4.5,0,26,2,1,1);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('mYSpR_SLPgUVymYOvTQd_Q','Grand View Golf Club',1,'Braddock','PA',5,NULL,3,NULL,1,NULL);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('KayYbHCt-RkbGcPdGOThNg','Alexions Bar & Grill',1,'Carnegie','PA',4,0,23,1,1,1);
 insert into yelp_biz
-(business_id,name,open,city,state,stars,attributes_Delivery,review_count,attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
+(business_id,name,open,city,state,stars,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out)
 values('b12U9TFESStdy7CsTtcOeg','Flynns Tire & Auto Service',1,'Carnegie','PA',2.5,NULL,9,NULL,1,NULL);
 
+select business_id,name,open,city,state,stars
+from yelp_biz;
+
+select business_id,attributes_Delivery,review_count,
+attributes_Price_Range,attributes_Accepts_Credit_Cards,attributes_Take_out
+from yelp_biz;
 
 
 Sktj1eHQFuVa-M4bgnEh8g,Forsythe Miniature Golf & Snacks,0,Carnegie,'PA',4,NULL,4,NULL,NULL,NULL
