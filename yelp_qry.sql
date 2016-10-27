@@ -72,9 +72,17 @@ on yelp_user.user_id = yelp_rvw.user_id
 )
 ;
 
-
-select Business_Name, 
+select Business_Name 
 , User_Name
+, Review_Stars
+, Business_Avg_Stars
+, User_Avg_Stars
+from review_full
+where Review_Stars <= 2;
+
+select Business_Name 
+, User_Name
+, Review_Stars
 , Business_Avg_Stars
 , User_Avg_Stars
 from review_full
