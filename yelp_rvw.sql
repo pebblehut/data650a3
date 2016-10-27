@@ -12,24 +12,50 @@ user_id   varchar(64)
 )
 row format delimited fields terminated by '\t';
 
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('PUFPaY9KxDAcGqfsorJp3Q','Ya85v4eqdd6k9Od8HbQjyA',0,'5UmKMjUEUNdYWqANhGckJw',0,4,'2012-08-01','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('rIu6AxdBYGR4A0wspR9BYHA','KPvLNJ21_4wbYNctrOwWdQ',0,'5UmKMjUEUNdYWqANhGckJw',0,5,'2014-02-13','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('uK8tzraOp4M5u3uYrqIBXg','Di3exaUCFNw1V4kSNW5pgA',0,'UsFtqoBl7naz8AVUBZMjQQ',0,5,'2013-11-8','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('I_47G-R2_egp7ME5u_ltew','0Lua2-PbqEQMjD9r89-asw',0,'UsFtqoBl7naz8AVUBZMjQQ',0,3,'2014-3-29','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('PP_xoMSYlGr2pb67BbqBdA','7N9j5YbBHBW6qguE5DAeyA',0,'UsFtqoBl7naz8AVUBZMjQQ',0,1,'2014-10-29','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('fhNxoMwwTipzjO8A9LFe8Q','XsA6AojkWjOHA4FmuAb8XQ',0,'cE27W9VPgO88Qxe4ol6y_g',0,3,'2012-8-19','review',1);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('KZuaJtFindQM9x2ZoMBxcQ','WExNE-f93SL4D1q8s9QWKg',0,'cE27W9VPgO88Qxe4ol6y_g',0,1,'2013-7-14','review',0);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('LWbYpcangjBMm4KPxZGOKg','6w6gMZ3iBLGcUM4RBIuifQ',0,'mVHrayjG3uZ_RLHkLj-AMg',0,5,'2012-12-1','review',5);
-insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
-values('m1FpV3EAeggaAdfPx0hBRQ','jVVv_DA5mCDB6mediuwHAw',0,'mVHrayjG3uZ_RLHkLj-AMg',0,5,'2013-3-15','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('PUFPaY9KxDAcGqfsorJp3Q','Ya85v4eqdd6k9Od8HbQjyA',0,
+'5UmKMjUEUNdYWqANhGckJw',0,4,'2012-08-01','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('rIu6AxdBYGR4A0wspR9BYHA','KPvLNJ21_4wbYNctrOwWdQ',0,
+'5UmKMjUEUNdYWqANhGckJw',0,5,'2014-02-13','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('uK8tzraOp4M5u3uYrqIBXg','Di3exaUCFNw1V4kSNW5pgA',0,
+'UsFtqoBl7naz8AVUBZMjQQ',0,5,'2013-11-8','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('I_47G-R2_egp7ME5u_ltew','0Lua2-PbqEQMjD9r89-asw',0,
+'UsFtqoBl7naz8AVUBZMjQQ',0,3,'2014-3-29','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('PP_xoMSYlGr2pb67BbqBdA','7N9j5YbBHBW6qguE5DAeyA',0,
+'UsFtqoBl7naz8AVUBZMjQQ',0,1,'2014-10-29','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('fhNxoMwwTipzjO8A9LFe8Q','XsA6AojkWjOHA4FmuAb8XQ',0,
+'cE27W9VPgO88Qxe4ol6y_g',0,3,'2012-8-19','review',1);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('KZuaJtFindQM9x2ZoMBxcQ','WExNE-f93SL4D1q8s9QWKg',0,
+'cE27W9VPgO88Qxe4ol6y_g',0,1,'2013-7-14','review',0);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('LWbYpcangjBMm4KPxZGOKg','6w6gMZ3iBLGcUM4RBIuifQ',0,
+'mVHrayjG3uZ_RLHkLj-AMg',0,5,'2012-12-1','review',5);
+insert into yelp_rvw (user_id,review_id,votes_cool,business_id,
+votes_funny,stars,date_,type,votes_useful)
+values('m1FpV3EAeggaAdfPx0hBRQ','jVVv_DA5mCDB6mediuwHAw',0,
+'mVHrayjG3uZ_RLHkLj-AMg',0,5,'2013-3-15','review',0);
+
+
+select review_id,user_id,votes_cool,business_id
+from yelp_rvw;
+
+select review_id,votes_funny,stars,date_,type,votes_useful
+from yelp_rvw;
+
 
 ---  Extra unneeded rows 
 insert into yelp_rvw (user_id,review_id,votes_cool,business_id,votes_funny,stars,date_,type,votes_useful)
