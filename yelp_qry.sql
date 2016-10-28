@@ -1,27 +1,26 @@
-select yelp_rvw.user_id
-, yelp_rvw.votes_cool
-, yelp_user.yelping_since
-from yelp_rvw, yelp_user
-where yelp_user.user_id = yelp_rvw.user_id;
+-- Queries against single table:
+select name
+, city
+, stars
+, review_count
+from yelp_biz
+where open = 1 and 
+attributes_accepts_credit_cards = 1 and 
+review_count > 5
+order by city asc, stars desc
+;
 
-select yelp_rvw.business_id
-, yelp_rvw.votes_cool
-, yelp_rvw.votes_cool
-, yelp_biz.name
-, yelp_biz.name
-from yelp_rvw, yelp_biz, yelp_user
-where yelp_biz.business_id = yelp_rvw.business_id;
-
-
-select yelp_rvw.business_id
-, yelp_rvw.votes_cool
-, yelp_biz.name as Business_Name
-, yelp_user.name as User_Name
-from 
-yelp_rvw left join yelp_biz 
-on yelp_biz.business_id = yelp_rvw.business_id
-left join yelp_user 
-on yelp_user.user_id = yelp_rvw.user_id
+select
+name
+, yelping_since
+, review_count
+, votes_useful
+, votes_funny
+, fans
+from yelp_user
+where review_count > 10 and
+yelping_since > '2011-01-01'
+order by review_count desc
 ;
 
 select 
@@ -72,6 +71,8 @@ on yelp_user.user_id = yelp_rvw.user_id
 )
 ;
 
+----- Unused queries below:
+
 select Business_Name 
 , User_Name
 , Review_Stars
@@ -87,3 +88,30 @@ select Business_Name
 , User_Avg_Stars
 from review_full
 where Review_Stars > 2;
+
+
+select yelp_rvw.user_id
+, yelp_rvw.votes_cool
+, yelp_user.yelping_since
+from yelp_rvw, yelp_user
+where yelp_user.user_id = yelp_rvw.user_id;
+
+select yelp_rvw.business_id
+, yelp_rvw.votes_cool
+, yelp_rvw.votes_cool
+, yelp_biz.name
+from yelp_rvw, yelp_biz, yelp_user
+where yelp_biz.business_id = yelp_rvw.business_id;
+
+
+select yelp_rvw.business_id
+, yelp_rvw.votes_cool
+, yelp_biz.name as Business_Name
+, yelp_user.name as User_Name
+from 
+yelp_rvw left join yelp_biz 
+on yelp_biz.business_id = yelp_rvw.business_id
+left join yelp_user 
+on yelp_user.user_id = yelp_rvw.user_id
+;
+
