@@ -33,10 +33,11 @@ yelp_biz.name as Business_Name
 , yelp_biz.stars as Business_Avg_Stars
 , yelp_user.average_stars as User_Avg_Stars
 from 
-yelp_rvw left join yelp_biz 
+yelp_rvw inner join yelp_biz 
 on yelp_biz.business_id = yelp_rvw.business_id
-left join yelp_user 
+inner join yelp_user 
 on yelp_user.user_id = yelp_rvw.user_id
+where yelp_rvw.stars = 5
 ;
 
 create or replace view review_full 
@@ -69,6 +70,13 @@ on yelp_biz.business_id = yelp_rvw.business_id
 left join yelp_user 
 on yelp_user.user_id = yelp_rvw.user_id
 )
+;
+
+select Business_City
+, avg(Review_Stars) as Average_City_Stars
+, avg(User_Avg_Stars) as Average_User_Stars
+from review_full
+group by Business_City
 ;
 
 ----- Unused queries below:
