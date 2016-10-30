@@ -77,6 +77,7 @@ select Business_City
 , avg(User_Avg_Stars) as Average_User_Stars
 from review_full
 group by Business_City
+order by Average_City_Stars desc
 ;
 
 ----- Unused queries below:
