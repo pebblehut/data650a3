@@ -69,6 +69,7 @@ yelp_rvw left join yelp_biz
 on yelp_biz.business_id = yelp_rvw.business_id
 left join yelp_user 
 on yelp_user.user_id = yelp_rvw.user_id
+where yelp_biz.open = 1
 )
 ;
 
